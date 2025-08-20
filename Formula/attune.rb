@@ -13,7 +13,7 @@ class Attune < Formula
       odie "Attune CLI is currently only available via Homebrew for macOS ARM64 (Apple Silicon)"
     end
 
-    bin.install "attune"
+    bin.install "attune-v#{version}_macOS-arm64" => "attune"
   end
 
   test do
