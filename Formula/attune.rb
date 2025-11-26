@@ -1,9 +1,9 @@
 class Attune < Formula
   desc "Fast drop-in replacement build tool"
   homepage "https://github.com/attunehq/attune"
-  url "https://github.com/attunehq/attune/releases/download/v0.2.1/attune-v0.2.1_macOS-ARM64"
-  version "0.2.1"
-  sha256 "d2d4a7e11cdf502bac5e07e8ec7a6216859088d3f4911486568e37aee948c01f"
+  url "https://github.com/attunehq/attune/releases/download/v0.2.2/attune-v0.2.2_macOS-arm64"
+  version "0.2.2"
+  sha256 "d0a4629e4c99d1bc760aa3bb341e54145d65a89b4968a5bd954367e2c60d6a8a"
   license "Apache-2.0"
 
   depends_on "gpgme"
